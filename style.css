@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(30, 28, 28) 99.4%
+  );
+}
+.container {
+  margin: 100px auto 20px;
+  width: 400px;
+  box-shadow: 1px 1px 1px 1px black;
+  padding: 10px;
+
+  border-radius: 10px;
+  background: transparent;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  box-shadow: 1px 1px 1px 1px black;
+  outline: none;
+  text-align: right;
+  color: rgb(171, 168, 168);
+  margin: 2px auto 2px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.button {
+  width: 100%;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+button {
+  margin: 5px 2px;
+  padding: 5px;
+  width: 90px;
+  height: 50px;
+  background: transparent;
+  box-shadow: 1px 1px 1px 1px black;
+  border-radius: 50%;
+  font-size: 25px;
+  color: rgb(201, 79, 18);
+}
+
+.equal {
+  background-color: rgb(104, 37, 6);
+}
